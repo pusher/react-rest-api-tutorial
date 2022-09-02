@@ -52,6 +52,19 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.contact {
+  padding: 16px;
+}
+.contact__name {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.contact__email {
+  font-size: 18px;
+  margin: 0;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
